@@ -1,0 +1,107 @@
+ 
+****************************************
+Report : qor
+Design : module_B
+Date   : Wed Nov 14 07:40:08 2018
+****************************************
+
+
+  Timing Path Group 'IN2REG'
+  -----------------------------------
+  Levels of Logic:               8.00
+  Critical Path Length:          0.22
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REG2OUT'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.22
+  Critical Path Slack:           0.03
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'clk_ncg'
+  -----------------------------------
+  Levels of Logic:              21.00
+  Critical Path Length:          0.81
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.48
+  Total Hold Violation:      -2232.73
+  No. of Hold Violations:    23911.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:             122026
+  Buf/Inv Cell Count:           13900
+  Buf Cell Count:                 681
+  Inv Cell Count:               13219
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     96243
+  Sequential Cell Count:        25751
+  Macro Count:                     32
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    28601.994904
+  Noncombinational Area: 37256.526441
+  Buf/Inv Area:           2229.068253
+  Total Buffer Area:           158.42
+  Total Inverter Area:        2070.65
+  Macro/Black Box Area: 989042.520462
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:           1054901.041807
+  Design Area:         1054901.041807
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:        136878
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   84.29
+  Logic Optimization:                 70.95
+  Mapping Optimization:              385.59
+  -----------------------------------------
+  Overall Compile Time:             1167.41
+  Overall Compile Wall Clock Time:   633.99
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.48  TNS: 2232.77  Number of Violating Paths: 23911
+
+  --------------------------------------------------------------------
+
+
+1

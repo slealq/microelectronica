@@ -1,0 +1,175 @@
+ 
+****************************************
+Report : qor
+Design : module_1
+Date   : Wed Nov 14 08:14:30 2018
+****************************************
+
+
+  Timing Path Group 'COMBPATH'
+  -----------------------------------
+  Levels of Logic:               6.00
+  Critical Path Length:          0.24
+  Critical Path Slack:           0.24
+  Critical Path Clk Period:      1.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'IN2REG'
+  -----------------------------------
+  Levels of Logic:               8.00
+  Critical Path Length:          0.22
+  Critical Path Slack:          -0.01
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:         -0.47
+  No. of Violating Paths:      109.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REG2OUT'
+  -----------------------------------
+  Levels of Logic:               5.00
+  Critical Path Length:          0.25
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'clk_ncg'
+  -----------------------------------
+  Levels of Logic:              35.00
+  Critical Path Length:          0.92
+  Critical Path Slack:          -0.10
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:        -94.26
+  No. of Violating Paths:     6819.00
+  Worst Hold Violation:         -0.23
+  Total Hold Violation:     -11016.65
+  No. of Hold Violations:   190585.00
+  -----------------------------------
+
+  Timing Path Group 'ips_clk'
+  -----------------------------------
+  Levels of Logic:              51.00
+  Critical Path Length:          1.66
+  Critical Path Slack:           0.01
+  Critical Path Clk Period:      1.92
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:       -887.30
+  No. of Hold Violations:    10812.00
+  -----------------------------------
+
+  Timing Path Group 'pcie_clk'
+  -----------------------------------
+  Levels of Logic:              70.00
+  Critical Path Length:          1.75
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.22
+  Total Hold Violation:      -5682.18
+  No. of Hold Violations:    90152.00
+  -----------------------------------
+
+  Timing Path Group 'tb_1ghz_clk'
+  -----------------------------------
+  Levels of Logic:              17.00
+  Critical Path Length:          0.55
+  Critical Path Slack:           0.24
+  Critical Path Clk Period:      1.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.11
+  Total Hold Violation:         -8.50
+  No. of Hold Violations:      111.00
+  -----------------------------------
+
+  Timing Path Group 'ts_clk'
+  -----------------------------------
+  Levels of Logic:              29.00
+  Critical Path Length:          1.04
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      1.25
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.15
+  Total Hold Violation:       -235.56
+  No. of Hold Violations:     4130.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:      25446
+  Hierarchical Port Count:    5532395
+  Leaf Cell Count:            1722698
+  Buf/Inv Cell Count:          329246
+  Buf Cell Count:              195508
+  Inv Cell Count:              133738
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:   1375671
+  Sequential Cell Count:       344469
+  Macro Count:                   2558
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   402965.650757
+  Noncombinational Area:
+                        507437.550661
+  Buf/Inv Area:          63122.613941
+  Total Buffer Area:         41595.07
+  Total Inverter Area:       21527.55
+  Macro/Black Box Area:
+                       1919733.277311
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:           2830136.478729
+  Design Area:         2830136.478729
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:       1750318
+  Nets With Violations:            18
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  Max Fanout Violations:           18
+  -----------------------------------
+
+
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                 1836.35
+  Logic Optimization:               2007.03
+  Mapping Optimization:             9804.95
+  -----------------------------------------
+  Overall Compile Time:            32986.50
+  Overall Compile Wall Clock Time: 22998.88
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.10  TNS: 94.73  Number of Violating Paths: 6928
+
+
+  Design (Hold)  WNS: 0.23  TNS: 17831.40  Number of Violating Paths: 295790
+
+  --------------------------------------------------------------------
+
+
+1

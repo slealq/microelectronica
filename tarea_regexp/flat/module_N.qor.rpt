@@ -1,0 +1,331 @@
+ 
+****************************************
+Report : qor
+Design : module_N
+Date   : Wed Nov 14 15:06:12 2018
+****************************************
+
+
+  Timing Path Group 'IN2REG'
+  -----------------------------------
+  Levels of Logic:              17.00
+  Critical Path Length:          0.33
+  Critical Path Slack:          -0.13
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:        -30.42
+  No. of Violating Paths:      411.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REG2OUT'
+  -----------------------------------
+  Levels of Logic:               8.00
+  Critical Path Length:          0.25
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'clk_ncg'
+  -----------------------------------
+  Levels of Logic:              60.00
+  Critical Path Length:          1.08
+  Critical Path Slack:          -0.25
+  Critical Path Clk Period:      1.04
+  Total Negative Slack:       -232.94
+  No. of Violating Paths:     6192.00
+  Worst Hold Violation:         -0.29
+  Total Hold Violation:     -10143.70
+  No. of Hold Violations:   135109.00
+  -----------------------------------
+
+  Timing Path Group 'meh_clk_ncg'
+  -----------------------------------
+  Levels of Logic:              47.00
+  Critical Path Length:          1.05
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      1.25
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.27
+  Total Hold Violation:     -23576.09
+  No. of Hold Violations:   391899.00
+  -----------------------------------
+
+  Timing Path Group 'o_da0_rx_clk'
+  -----------------------------------
+  Levels of Logic:              14.00
+  Critical Path Length:          0.89
+  Critical Path Slack:           0.37
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:       -113.96
+  No. of Hold Violations:     1694.00
+  -----------------------------------
+
+  Timing Path Group 'o_da0_tx_clk'
+  -----------------------------------
+  Levels of Logic:               8.00
+  Critical Path Length:          1.02
+  Critical Path Slack:           0.28
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:       -115.39
+  No. of Hold Violations:     1724.00
+  -----------------------------------
+
+  Timing Path Group 'o_da1_rx_clk'
+  -----------------------------------
+  Levels of Logic:              14.00
+  Critical Path Length:          0.89
+  Critical Path Slack:           0.37
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:        -76.78
+  No. of Hold Violations:     1149.00
+  -----------------------------------
+
+  Timing Path Group 'o_da1_tx_clk'
+  -----------------------------------
+  Levels of Logic:              11.00
+  Critical Path Length:          0.97
+  Critical Path Slack:           0.31
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:        -70.39
+  No. of Hold Violations:     1040.00
+  -----------------------------------
+
+  Timing Path Group 'o_da2_rx_clk'
+  -----------------------------------
+  Levels of Logic:              14.00
+  Critical Path Length:          0.89
+  Critical Path Slack:           0.38
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:       -113.96
+  No. of Hold Violations:     1694.00
+  -----------------------------------
+
+  Timing Path Group 'o_da2_tx_clk'
+  -----------------------------------
+  Levels of Logic:               7.00
+  Critical Path Length:          1.28
+  Critical Path Slack:           0.01
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:       -115.37
+  No. of Hold Violations:     1724.00
+  -----------------------------------
+
+  Timing Path Group 'o_da3_rx_clk'
+  -----------------------------------
+  Levels of Logic:              15.00
+  Critical Path Length:          0.90
+  Critical Path Slack:           0.36
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:        -76.79
+  No. of Hold Violations:     1149.00
+  -----------------------------------
+
+  Timing Path Group 'o_da3_tx_clk'
+  -----------------------------------
+  Levels of Logic:               7.00
+  Critical Path Length:          1.28
+  Critical Path Slack:           0.01
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:        -70.40
+  No. of Hold Violations:     1040.00
+  -----------------------------------
+
+  Timing Path Group 'o_da4_rx_clk'
+  -----------------------------------
+  Levels of Logic:              15.00
+  Critical Path Length:          0.89
+  Critical Path Slack:           0.37
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:       -113.40
+  No. of Hold Violations:     1694.00
+  -----------------------------------
+
+  Timing Path Group 'o_da4_tx_clk'
+  -----------------------------------
+  Levels of Logic:              12.00
+  Critical Path Length:          1.07
+  Critical Path Slack:           0.21
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:       -115.06
+  No. of Hold Violations:     1755.00
+  -----------------------------------
+
+  Timing Path Group 'o_da5_rx_clk'
+  -----------------------------------
+  Levels of Logic:              14.00
+  Critical Path Length:          0.89
+  Critical Path Slack:           0.37
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:        -76.51
+  No. of Hold Violations:     1149.00
+  -----------------------------------
+
+  Timing Path Group 'o_da5_tx_clk'
+  -----------------------------------
+  Levels of Logic:              12.00
+  Critical Path Length:          1.07
+  Critical Path Slack:           0.21
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:        -70.24
+  No. of Hold Violations:     1056.00
+  -----------------------------------
+
+  Timing Path Group 'o_da6_rx_clk'
+  -----------------------------------
+  Levels of Logic:              14.00
+  Critical Path Length:          0.89
+  Critical Path Slack:           0.37
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:       -113.40
+  No. of Hold Violations:     1694.00
+  -----------------------------------
+
+  Timing Path Group 'o_da6_tx_clk'
+  -----------------------------------
+  Levels of Logic:              12.00
+  Critical Path Length:          1.07
+  Critical Path Slack:           0.21
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:       -115.07
+  No. of Hold Violations:     1755.00
+  -----------------------------------
+
+  Timing Path Group 'o_da7_rx_clk'
+  -----------------------------------
+  Levels of Logic:              15.00
+  Critical Path Length:          0.90
+  Critical Path Slack:           0.37
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.20
+  Total Hold Violation:        -76.50
+  No. of Hold Violations:     1149.00
+  -----------------------------------
+
+  Timing Path Group 'o_da7_tx_clk'
+  -----------------------------------
+  Levels of Logic:              12.00
+  Critical Path Length:          1.07
+  Critical Path Slack:           0.21
+  Critical Path Clk Period:      1.50
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.14
+  Total Hold Violation:        -70.20
+  No. of Hold Violations:     1056.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:            2770265
+  Buf/Inv Cell Count:          303455
+  Buf Cell Count:               11073
+  Inv Cell Count:              292382
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:   2154707
+  Sequential Cell Count:       602440
+  Macro Count:                  13118
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   681104.780845
+  Noncombinational Area:
+                        950105.397969
+  Buf/Inv Area:          48756.662503
+  Total Buffer Area:          2593.19
+  Total Inverter Area:       46163.47
+  Macro/Black Box Area:
+                       2406555.167290
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:           4037765.346104
+  Design Area:         4037765.346104
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:       2819475
+  Nets With Violations:            10
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  Max Fanout Violations:           10
+  -----------------------------------
+
+
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                   18.03
+  Logic Optimization:                651.46
+  Mapping Optimization:             1998.75
+  -----------------------------------------
+  Overall Compile Time:             6564.51
+  Overall Compile Wall Clock Time:  4899.17
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.25  TNS: 232.98  Number of Violating Paths: 6194
+
+
+  Design (Hold)  WNS: 0.29  TNS: 34934.41  Number of Violating Paths: 544902
+
+  --------------------------------------------------------------------
+
+
+1
