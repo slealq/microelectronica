@@ -1,5 +1,7 @@
 # microelectronica
 
+Link to repo: https://github.com/slealq/microelectronica
+
 ## Notes about `tarea_regexp` folder
 
 - `tarea_regexp` should contain two folders: `hier`, and `flat`, or any other synth type names.
