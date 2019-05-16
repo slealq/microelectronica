@@ -1,5 +1,4 @@
-
-
+#!/usr/bin/env python3
 from os import walk
 from os.path import join
 from re import findall, match
